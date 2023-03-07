@@ -1,13 +1,12 @@
+@font-face {
+  font-family:"Futura Medium";
+  src: url('../Futura\ Medium.otf') format("openType");
+}
 body {
   margin: 0;
   height: 200vh;
+  font-family: "Futura Medium";
 }
-
-@font-face {
-  font-family: ;
-  src: url();
-}
-
 .black_space {
   height: 150px;
   background-color: #1d1d1d;
@@ -15,7 +14,6 @@ body {
   align-items: center;
   padding-left: 100px;
   color: white;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .black_space-logo {
