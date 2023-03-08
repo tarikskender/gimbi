@@ -1,11 +1,12 @@
 @font-face {
-  font-family:"Futura Medium";
-  src: url('../Futura\ Medium.otf') format("openType");
+  font-family: "Futura Medium";
+  src: url("../Futura\ Medium.otf") format("openType");
 }
 body {
   margin: 0;
   height: 200vh;
   font-family: "Futura Medium";
+  color: white;
 }
 .black_space {
   height: 150px;
@@ -22,6 +23,15 @@ body {
 
 .black_space-tekst {
   height: 105px;
+}
+
+.navbar-tekstura {
+  width: 35%;
+  background-image: url(../materials/tekstura.PNG);
+  height: 150px;
+  background-size: cover;
+  position: absolute;
+  right: 0;
 }
 
 .navbar {
@@ -59,6 +69,56 @@ body {
   color: #d3ac67;
   transition: all 0.2s;
   cursor: pointer;
+}
+
+.posts-section {
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+}
+
+.posts-section__post {
+  padding: 20px;
+}
+
+.blue-hr {
+  height: 6px;
+  background-color: #2e3192;
+}
+
+.gold-hr {
+  height: 3px;
+  background-color: #d3ac67;
+  margin-top: 5px;
+}
+
+.info-section {
+  height: 45vh;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+}
+
+.info-section h1 {
+  color: #d3ac67;
+  height: 15px;
+}
+
+.info-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.info-section img {
+  height: 200px;
 }
 
 footer {
