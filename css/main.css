@@ -8,7 +8,6 @@ body {
   height: 200vh;
   color: white;
   font-family: "Futura Medium";
-  color: white;
 }
 
 .black_space {
@@ -25,15 +24,6 @@ body {
 
 .black_space-tekst {
   height: 105px;
-}
-
-.navbar-tekstura {
-  width: 35%;
-  background-image: url(../materials/tekstura.PNG);
-  height: 150px;
-  background-size: cover;
-  position: absolute;
-  right: 0;
 }
 
 .navbar {
@@ -70,6 +60,51 @@ body {
   color: #d3ac67;
   transition: all 0.2s;
   cursor: pointer;
+}
+
+.main-section {
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.684)),
+    url(../materials/shool.jpg);
+  font-family: "Times New Roman";
+  background-size: 1350px;
+  background-position: center;
+  height: 30%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+
+.main-section__textComponent {
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: end;
+  margin: 70px;
+  margin-right: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.main-section__textComponent .hr {
+  width: 200px;
+  height: 3px;
+  background-color: #d3ac67;
+  border: 0px;
+}
+
+.textComponent__button {
+  height: 50px;
+  width: 150px;
+  background-color: #1d1d1d;
+  transition: all 0.2s;
+  color: white;
+}
+
+.textComponent__button:hover {
+  box-shadow: 2px 5px #000000;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 footer {
