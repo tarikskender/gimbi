@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "Futura Medium";
   src: url("../Futura\ Medium.otf") format("openType");
@@ -63,40 +66,6 @@ body {
   transition: all 0.2s;
   cursor: pointer;
 }
-.aktivnosti {
-  margin-left: 40px;
-  margin-top: 30px;
-}
-#naslov {
-  font-family: "Futura Medium";
-  color: #1d1d1d;
-  font-size: x-large;
-  background-color: transparent;
-  width: 200px;
-  padding-bottom: 10px;
-}
-#naslov:hover {
-  font-weight: 600;
-}
-.logo-container {
-  background-color: rgb(255, 255, 255);
-  width: min-content;
-  position: absolute;
-  right: 20%;
-  top: 47%;
-}
-#logo-img {
-  width: 150px;
-}
-.blue-hr {
-  height: 6px;
-  background-color: #2e3192;
-}
-.gold-hr {
-  height: 3px;
-  background-color: #d3ac67;
-  margin-top: 40px;
-}
 footer {
   display: flex;
   justify-content: center;
@@ -109,46 +78,49 @@ footer {
   color: white;
   text-align: center;
 }
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+#second-nav {
+  color: #1d1d1d;
+  font-family: "Futura Medium";
+  font-size: x-large;
+  width: 200px;
+  padding-left: 40px;
 }
-.active,
-.collapsible:hover {
-  background-color: #555;
+.second-navbar {
+  width: 100vw;
+  height: 30vh;
+  padding-left: 100px;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  visibility: hidden;
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  box-shadow: 0px 3px 8px -1px rgba(112, 112, 112, 0.75);
 }
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-  background-color: transparent;
+#second-nav:hover {
+  font-weight: 600;
 }
-.content1 {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-around;
+#aktivnosti:hover .second-navbar {
+  visibility: visible;
 }
-#heading{
-    font-family: "Futura Medium";
-    color: #1d1d1d;
+h1{
+  font-family: "Futura Medium";
+  font-size: xx-large;
+  color: #1d1d1d;
+  margin: 50px 0 0 100px;
 }
-.vugimbi{
-  
+#naslovi{
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  width: min-content;
+  height: min-content;
 }
-#vugimbi-img{
-    width: 200px;
+.links{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 50px;
+}
+a{
+  text-decoration: none;
 }
