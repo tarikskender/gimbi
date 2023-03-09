@@ -26,6 +26,15 @@ body {
   height: 105px;
 }
 
+.navbar-tekstura {
+  width: 30%;
+  background-image: url(../materials/tekstura.PNG);
+  height: 150px;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+}
+
 .navbar {
   height: 60px;
   background: linear-gradient(to left, #d3ac67, #ffe3a0);
@@ -107,14 +116,137 @@ body {
   font-size: 14px;
 }
 
-footer {
+.posts-section {
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+}
+
+.posts-section__post {
+  padding: 20px;
+}
+
+.blue-hr {
+  height: 6px;
+  background-color: #2e3192;
+}
+
+.gold-hr {
+  height: 3px;
+  background-color: #d3ac67;
+  margin-top: 5px;
+}
+.black-hr {
+  width: 150px;
+  height: 2px;
+  background-color: black;
+  margin: 30px;
+}
+
+.info-section {
+  height: 35vh;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #1d1d1d;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  bottom: 0;
+  font-size: 18px;
   width: 100%;
-  height: 100px;
+}
+
+.info-section h1 {
+  color: #d3ac67;
+  height: 15px;
+}
+
+.info-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.info-section img {
+  height: 200px;
+}
+
+.contact-section {
+  color: black;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+  font-size: 20px;
+}
+
+.contact-section__name {
+  width: 35vw;
+  height: 25px;
+  background-color: rgb(238, 238, 238);
+  border: 0;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.contact-section__message {
+  height: 20%;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  display: flex;
+  text-align: left;
+  align-items: baseline;
+}
+
+.contact-section__button {
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 40%;
   background-color: #1d1d1d;
-  text-align: center;
+  font-size: 18px;
+}
+
+.footer-section__textComponents {
+  justify-content: space-evenly;
+  display: flex;
+  height: 50%;
+}
+
+.footer-section__textComponents div {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: baseline;
+  color: #ffffff;
+}
+
+footer div a {
+  margin-top: 20px;
+  color: rgb(213, 213, 213);
+}
+
+footer p {
+  font-size: 13px;
+  text-align: start;
+  margin: 50px;
+  color: gray;
+}
+
+footer div a:hover {
+  color: #d3ac67;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-section__proprietary {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
 }
