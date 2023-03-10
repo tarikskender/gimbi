@@ -73,9 +73,9 @@ body {
 
 .main-section {
   background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.684)),
-    url(../materials/shool.jpg);
+    url(../materials/school.jpeg);
   font-family: "Times New Roman";
-  background-size: 1350px;
+  background-size: 1920px;
   background-position: center;
   height: 30%;
   display: flex;
