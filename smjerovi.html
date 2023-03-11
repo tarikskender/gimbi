@@ -6,7 +6,9 @@
     <title>Gimnazija Bihac</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/smjerovi-main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="smjerovi.js"></script>
   </head>
 
   <body>
@@ -16,7 +18,7 @@
     </div>
     <nav class="navbar">
       <ul>
-        <li>POCETNA</li>
+        <li>POČETNA</li>
         <li>NASTAVA</li>
         <li>AKTIVNOSTI</li>
         <li>E-DNEVNIK</li>
@@ -24,23 +26,105 @@
         <li>HISTORIJA</li>
       </ul>
     </nav>
-    <script></script>
+    <div class="title">Gimnazija Bihać nudi sljedeće smjerove</div>
+    <div class="menu">
+      <ul>
+        <li><a href="#anchor-1">DSD program</a></li>
+        <li><a href="#anchor-2">RI smjer</a></li>
+      </ul>
+      <ul>  
+        <li><a href="#anchor-3">Novi program</a></li>
+        <li><a href="#anchor-4">Stari program</a></li>
+      </ul>
+    </div>
+    <hr>
+    <!---->
+    <div class="anchor" id="anchor-1"></div>
+    <div class="image-layer">
+        <img src="materials/image1.jpg" id="image-bg-1">
+        <div class="name">DSD program<img src="materials/book.png" id="vector-1"></div>
+    </div>
+    
+    <p class="more" onclick="show(1)" onload="show(1)" id="select-1">Pokaži više</p>
+    <div class="select"><img src = "materials/arrow.png" class="select-image" id="select-image-1"></div>
+    
+    <div class="desc" id="desc-1">
+      DSD program (Deutsch Sprachdiplom) odnosi se na program pojačanog učenja njemačkog jezika
+      , a podrazumijeva jedan dodatni čas njemačkog svake sedmice, i mogućnost polaganja i dokazivanja
+      znanja na B2/C1 nivou. Naša škola je samo jedna od mnogih DSD škola u svijetu.
+    </div>
+    
+    <div class="anchor" id="anchor-4"></div>
+    <div class="image-layer">
+        <img src="materials/image4.jpg" id="image-bg-1">
+        <div class="name" id="name-2">Opći smjer</div>
 
-    <div class="title">
-      <img src="side.png" id="left" />
-      <p id="titletext">Gimnazija danas nudi sljedeća usmjerenja i programe</p>
-      <img src="side.png" id="right" />
+        
+    </div>
+    
+    <p class="more"  onclick="show(2)" onload="show(2)" id="select-2">Pokaži više</p>
+    <div class="select"><img src = "materials/arrow.png" class="select-image" id="select-image-2"></div>
+    
+    <div class="desc" id="desc-2">Ovo je neki tekst koji će biti sakriven dok se ne pritisne.
+        DSD program daje učenicima priliku da polažu njemački jezik nakon 4 godine intenzivnog učenja jezika
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptate! Dolore nulla doloribus labore quaerat veniam,
+         itaque fugit reiciendis earum, tempora ipsum maiores pariatur est accusantium? Eligendi vero voluptatibus laudantium.
     </div>
 
-    <table class="smjerovi">
-      <td id="select">mozeee</td>
-      <td id="selectText">
-        <div class="card"></div>
-      </td>
-    </table>
+    <div class="anchor" id="anchor-3"></div>
+    <div class="image-layer">
+        <img src="materials/image3.jpg" id="image-bg-1">
+        <div class="name">Novi program</div>
+        
+    </div>
+    
+    <p class="more" onclick="show(3)" onload="show(3)" id="select-3">Pokaži više</p>
+    <div class="select"><img src = "materials/arrow.png" class="select-image" id="select-image-3"></div>
+    
+    <div class="desc" id="desc-3">Ovo je neki tekst koji će biti sakriven dok se ne pritisne.
+        DSD program daje učenicima priliku da polažu njemački jezik nakon 4 godine intenzivnog učenja jezika
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptate! Dolore nulla doloribus labore quaerat veniam,
+         itaque fugit reiciendis earum, tempora ipsum maiores pariatur est accusantium? Eligendi vero voluptatibus laudantium.
+    </div>
+
+    <div class="anchor" id="anchor-2"></div>
+    <div class="image-layer">
+        <img src="materials/image2.jpg" id="image-bg-1">
+        <div class="name" id="name-4">Računarsko-informatički smjer</div>
+    </div>
+    
+    <p class="more" onclick="show(4)" onload="show4()" id="select-4">Pokaži više</p>
+    <div class="select"><img src = "materials/arrow.png" class="select-image" id="select-image-4"></div>
+    
+    <div class="desc" id="desc-4">Smjer je uveden 2018. godine zbog sve većeg razvoja IT sektora i 
+      interesa naših učenika. Drugačiji je od matematičko-informatičkog izbornog područja, neki od
+      predmeta svojstvenih za ovaj smjer uključuju (raspoređeni kroz sve 4. godine)
+      <ul>
+        <li>OOM (Odabrane oblasti matematike) - primjera radi, u 4. razredu učenici imaju 7 sati matematike
+          jer je ona nezaobilazna kad je programiranje u pitanju.
+        </li>
+        <li>Uvod u programiranje</li>
+        <li>Programski jezici (Java, C#)</li>
+        <li>Računarske mreže</li>
+        <li>Primjerna računara</li>
+        <li>Operativni sistemi</li>
+        <li>Web dizajn</li>
+        <li>Web tehnologije</li>
+        <li>Informacioni sistemi i baze podataka</li>
+      </ul>
+      Do sada velika većina učenika koji završe ovaj smjer dobiju poziv za praksu ili zaposlenje u firmama
+      unutar BiH, a ostali nastave svoje studije na predmetima vezanim uz informatiku u državama Europe
+      kao što su Austrija, Srbija, Hrvatska, Njemačka...
+    </div>
+
+    <div class="blank-space"></div>
 
     <footer>
-      <h1>FOOTER</h1>
+      <p>Kontakt podaci: 
+        <ul>
+            <li>Telefon: </li>
+            <li>E-mail: </li>
+        </ul>
+      </p>
     </footer>
   </body>
-</html>
