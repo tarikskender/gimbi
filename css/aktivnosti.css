@@ -218,12 +218,12 @@ a {
   top: 231%;
   right: 0;
 }
-.background{
+.background {
   width: 1700px;
   height: 700px;
   background-color: #d3d3d3;
 }
-.background-container{
+.background-container {
   width: 100vw;
   display: flex;
   justify-content: center;
