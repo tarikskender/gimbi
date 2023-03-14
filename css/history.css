@@ -1,0 +1,66 @@
+.naslov{
+
+    display: flex;
+    font-size: 14rem;
+    color: black;
+    justify-content: center;
+    margin-top: 9rem;
+
+}
+
+.kartica{
+
+    border-radius: 30px;
+    width: 800px;
+    height: 370px;
+    margin-left: 33rem;
+    margin-top: 20rem;
+    box-shadow: 0px 0px 36px 6px rgba(211,172,103,0.75);
+    -webkit-box-shadow: 0px 0px 36px 6px rgba(211,172,103,0.75);
+    -moz-box-shadow: 0px 0px 36px 6px rgba(211,172,103,0.75);
+
+}
+
+.lijevi_dio{
+
+    display: flex;
+    width: 400px;
+    height: 370px;
+    border-radius: 30px;
+    justify-content: center;
+    
+
+}
+
+.desni_dio{
+
+    width: 400px;
+    height: 370px;
+    border-radius: 30px;
+    
+
+}
+.godina{
+
+    color: black;
+    font-size: 60px;
+    
+    
+}
+
+.plava{
+
+    width: 1400px;
+    height: 10px;
+    background-color: #2e3192;
+    margin-top: 100px;
+
+}
+.zuta{
+
+    width: 1400px;
+    height: 10px;
+    background-color: #d3ac67;
+    margin-top: -9px;
+
+}
