@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Webpage description goes here" />
+    <meta charset="utf-8" />
+    <title>Gimnazija Bihac</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/nastava.css">
+    <script src="main.js"></script>
+    <script src="nastava.js"></script>
+  </head>
+
+  <body>
+    <div class="black_space">
+      <img class="black_space-logo" src="materials/logo.png" />
+      <img class="black_space-tekst" src="materials/teskt2.PNG" />
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li>POCETNA</li>
+        <li>NASTAVA</li>
+        <li>AKTIVNOSTI</li>
+        <li>E-DNEVNIK</li>
+        <li>SMJEROVI</li>
+        <li>HISTORIJA</li>
+      </ul>
+    </nav>
+    <div class="container">
+    <div class="button_container">
+        <button id="button-1" class="color" onclick="prikaz(1)">Ucenici</button>
+        <button id="button-2" class="color" onclick="prikaz(2)">Profesori</button>
+        <button id="button-3" class="color" onclick="prikaz(3)">Odjeljenja</button>
+    </div>
+    <div class="rasporedi_container">
+    <iframe id="raspored-1" class="list" src="/materials/raspored.pdf#toolbar=0&navpanes=0&scrollbar=0&page=1&view=fitH" width="50%" height="550px"></iframe>
+    <iframe id="raspored-2" class="list" src="/materials/raspored1.pdf#toolbar=0&navpanes=0&scrollbar=0&page=1&view=fitH&" width="50%" height="550px"></iframe>
+    <iframe id="raspored-3" class="list" src="/materials/raspored2.pdf#toolbar=0&navpanes=0&scrollbar=0&page=1&view=fitH" width="50%" height="550px"></iframe>
+</div>
+</div>
+        
+  
+
+    <footer>
+      <h1>FOOTER</h1>
+    </footer>
+  </body>
+  
+</html>
