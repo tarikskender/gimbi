@@ -7,7 +7,7 @@ html {
 }
 body {
   margin: 0;
-  height: 200vh;
+  height: 200%;
   font-family: "Futura Medium";
 }
 .black_space {
@@ -83,15 +83,17 @@ footer {
   font-family: "Futura Medium";
   font-size: 22px;
   width: 200px;
-  color: #1d1d1d;
+  color: #d3ac67;
   margin-left: 100px;
   opacity: 70%;
+  text-align: center;
+  position: relative;
+  right:50%;
 }
 .second-navbar {
-  width: 100vw;
+  width: 200px;
   height: 300px;
   position: absolute;
-  right: 0;
   top: 60px;
   visibility: hidden;
   background-color: #ffffff;
