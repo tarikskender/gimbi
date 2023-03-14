@@ -35,8 +35,8 @@
         </h1>
         <div class="hr"></div>
         <p>
-          Lorem Ipsum Nesto Neki Tekst ovdje pise da bi samo popunio <br />
-          prostor, a kasnije ce biti pravi
+          Pogledajte i istrazite smjerove koje nudi Gimnazija u Bihacu <br />
+          klikom na dugme i saznajte vise!
         </p>
         <button class="textComponent__button">SAZNAJ VISE</button>
       </div>
@@ -212,14 +212,22 @@
       <hr />
       <div class="footer-section__proprietary">
         <img class="black_space-tekst" src="materials/teskt2.PNG" />
-        <p>
-          Nafije Sarajlić<br />
-          77000 Bihać
-        </p>
         <p>© 2023 Ucenici IVd, AISSDZ</p>
+        <button class="login-button" id="login-button">UREDI</button>
       </div>
       <!-- Made with love by Skendi :) -->
     </footer>
-    <script></script>
+    <div class="login-popup" id="login-popup">
+      <span class="closePopup" id="closePopup">&times;</span>
+      <h1>Unesite sifru da biste uredili sadrzaj:</h1>
+      <input
+        id="passwordInput"
+        placeholder="unesite sifru"
+        type="password"
+        required
+      />
+      <button id="login-submitButton">Log In</button>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
