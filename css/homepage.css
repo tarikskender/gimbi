@@ -29,10 +29,25 @@
   border: 0px;
 }
 
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li a:hover {
+  text-decoration: none;
+  color: #d3ac67;
+}
+
 .textComponent__button {
   height: 50px;
   width: 150px;
-  background-color: #1d1d1d;
+  background-color: #000000;
   transition: all 0.2s;
   color: white;
 }
