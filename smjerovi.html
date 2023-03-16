@@ -26,23 +26,25 @@
         <li>HISTORIJA</li>
       </ul>
     </nav>
-    <div class="title">Gimnazija Bihać nudi sljedeće smjerove</div>
-    <div class="menu">
-      <ul>
-        <li><a href="#anchor-1">DSD program</a></li>
-        <li><a href="#anchor-2">RI smjer</a></li>
-      </ul>
-      <ul>  
-        <li><a href="#anchor-3">Novi program</a></li>
-        <li><a href="#anchor-4">Stari program</a></li>
-      </ul>
+
+    <span class="sideMenu" onclick="openNav()">
+      >
+    </span>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&lt;</a>
+      <a href="#anchor-4">Opći smjer</a>
+      <a href="#anchor-3">Novi program</a>
+      <a href="#anchor-2">Računarsko-informatički smjer</a>
+      <a href="#anchor-1">DSD program</a>
     </div>
-    <hr>
-    <!--testing-->
+
+    <div class="title">Gimnazija Bihac nudi sljedece smjerove</div>
+    <!---->
     <div class="anchor" id="anchor-1"></div>
-    <div class="image-layer">
+    <div class="image-layer" id="il1">
         <img src="materials/image1.jpg" id="image-bg-1">
-        <div class="name">DSD program<img src="materials/book.png" id="vector-1"></div>
+        <div class="name">DSD program</div>
     </div>
     
     <p class="more" onclick="show(1)" onload="show(1)" id="select-1">Pokaži više</p>
@@ -55,9 +57,11 @@
     </div>
     
     <div class="anchor" id="anchor-4"></div>
-    <div class="image-layer">
+    <div class="image-layer" id="il2">
         <img src="materials/image4.jpg" id="image-bg-1">
         <div class="name" id="name-2">Opći smjer</div>
+
+        
     </div>
     
     <p class="more"  onclick="show(2)" onload="show(2)" id="select-2">Pokaži više</p>
@@ -70,7 +74,7 @@
     </div>
 
     <div class="anchor" id="anchor-3"></div>
-    <div class="image-layer">
+    <div class="image-layer" id="il3">
         <img src="materials/image3.jpg" id="image-bg-1">
         <div class="name">Novi program</div>
         
@@ -95,7 +99,7 @@
     </div>
 
     <div class="anchor" id="anchor-2"></div>
-    <div class="image-layer">
+    <div class="image-layer" id="il4">
         <img src="materials/image2.jpg" id="image-bg-1">
         <div class="name" id="name-4">Računarsko-informatički smjer</div>
     </div>
