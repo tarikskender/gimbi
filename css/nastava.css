@@ -1,37 +1,41 @@
-.button_container{
-   width: 100%;
-   height: 10vh;
-   display: flex;
-   justify-content: center;
-   gap: 20px;
-   margin-top: 20px;
+.main_pozadina{
+background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.477)),
+    url(../materials/classroom.jpg);
+  background-repeat: no-repeat;
+  font-family: "Times New Roman";
+  background-size: 1920px;
+  background-position: center;
+  height: 30%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
-button{
-border-radius: 5px;
-border: transparent;
-cursor: pointer;
-background: linear-gradient(to left, #d3ac67, #ffe3a0);
-width: fit-content;
-height: 40px;
+.main_pozadina_tekst{
+    font-size: 65px;
+    font-weight: bolder;
+    margin-bottom: 100px;
+    text-decoration: underline;
+    text-decoration-color: purple;
 }
-.container{
+.naslov{
+    color: black;
     display: flex;
     flex-direction: column;
-}
-.rasporedi_container{
-    
-    display:grid;
-    grid-template-columns: 1fr;
-    place-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
     
 }
-iframe{
-    visibility: hidden;
-    grid-row-start: 1;
-    grid-column-start: 1;
+.naslov h1, i{
+  font-size: 55px;
 }
-.selected{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,22,255,1) 100%);
-    color: white;
-    
+.raspored{
+    width: 100%;
+    height: 35rem;
+    background: #D3D3D3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

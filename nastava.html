@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/nastava.css">
     <script src="main.js"></script>
     <script src="nastava.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
@@ -27,20 +29,23 @@
         <li>HISTORIJA</li>
       </ul>
     </nav>
-    <div class="container">
-    <div class="button_container">
-        <button id="button-1" class="color" onclick="prikaz(1)">Ucenici</button>
-        <button id="button-2" class="color" onclick="prikaz(2)">Profesori</button>
-        <button id="button-3" class="color" onclick="prikaz(3)">Odjeljenja</button>
+    <div class="main_pozadina">
+      <div class="main_pozadina_tekst">NASTAVA</div>
     </div>
-    <div class="rasporedi_container">
-    <iframe id="raspored-1" class="list" src="/materials/raspored.pdf#toolbar=0&navpanes=0&scrollbar=0&page=1&view=fitH" width="50%" height="550px"></iframe>
-    <iframe id="raspored-2" class="list" src="/materials/raspored1.pdf#toolbar=0&navpanes=0&scrollbar=0&page=1&view=fitH&" width="50%" height="550px"></iframe>
-    <iframe id="raspored-3" class="list" src="/materials/raspored2.pdf#toolbar=0&navpanes=0&scrollbar=0&page=1&view=fitH" width="50%" height="550px"></iframe>
-</div>
-</div>
-        
-  
+    <div class="naslov">
+      <h1>PROFESORI</h1>
+      <i class="fa-sharp fa-solid fa-chalkboard-user"></i>
+    </div>
+    <div class="raspored">
+      <iframe src="./materials/raspored.pdf#toolbar=0&zoom=58%" width="650px" height="450px"></iframe>
+    </div>
+    <div class="naslov">
+      <h1>Ucenici</h1>
+      <i class="fa-solid fa-user-graduate"></i>
+    </div>
+    <div class="raspored">
+      <iframe src="./materials/raspored1.pdf#toolbar=0&zoom=79%" width="650px" height="450px"></iframe>
+    </div>
 
     <footer>
       <h1>FOOTER</h1>
