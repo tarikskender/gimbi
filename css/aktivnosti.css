@@ -92,7 +92,7 @@ footer {
 }
 .second-navbar {
   width: 150px;
-  height: 200px;
+  height: 225px;
   position: absolute;
   top: 60px;
   visibility: hidden;
@@ -100,6 +100,14 @@ footer {
   z-index: 2;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+.second-navbar a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 #second-nav:hover {
   opacity: 100%;

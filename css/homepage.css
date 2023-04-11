@@ -29,21 +29,6 @@
   border: 0px;
 }
 
-.navbar li a {
-  text-decoration: none;
-  color: white;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar li a:hover {
-  text-decoration: none;
-  color: #d3ac67;
-}
-
 .textComponent__button {
   height: 50px;
   width: 150px;
@@ -59,10 +44,21 @@
   font-size: 14px;
 }
 
+.title-posts-section {
+  margin-top: 50px;
+  margin-bottom: -25px;
+  color: black;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 .posts-section {
   display: flex;
-  justify-content: center;
-  margin: 35px;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 90vh;
+  align-items: center;
 }
 
 .posts-section__post {
@@ -144,4 +140,40 @@
 
 .contact-section__button {
   margin-top: 50px;
+}
+
+#tab-images {
+  width: 100%;
+}
+.tab-container {
+  width: 450px;
+  height: 700px;
+  background-color: white;
+  box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.3);
+}
+#tab-date {
+  font-family: "Futura Medium";
+  padding-left: 40px;
+  font-weight: 600;
+  color: #d3ac67;
+}
+#tab-info {
+  font-family: "Futura Medium";
+  padding-left: 40px;
+  color: #1d1d1d;
+  font-size: small;
+}
+
+#tab-heading {
+  font-family: "Futura Medium";
+  font-weight: 400;
+  padding: 0 40px 0 40px;
+  font-size: x-large;
+  color: #312f90;
+}
+#tab-text {
+  font-family: "Futura Medium";
+  padding: 0 40px 0 40px;
+  color: #727272;
+  text-align: justify;
 }
