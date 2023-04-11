@@ -7,10 +7,40 @@ function login() {
 
   if (passInput == "skender") {
     closePopup();
+    scrollToSection();
     openEdit();
   } else {
     alert("Netacno");
   }
+}
+
+function selectDiv(id, toggle) {
+  const divider = document.getElementById(id);
+  const dividers = document.querySelectorAll(".edit-popup__posts");
+
+  if (toggle) {
+    if (divider.classList.contains("colorChange")) {
+      divider.classList.remove("colorChange");
+    } else {
+      for (let i = 0; i < dividers.length; i++) {
+        dividers[i].classList.remove("colorChange");
+      }
+      divider.classList.add("colorChange");
+    }
+  } else {
+    for (let i = 0; i < dividers.length; i++) {
+      if (dividers[i].id === id) {
+        dividers[i].classList.add("colorChange");
+      } else {
+        dividers[i].classList.remove("colorChange");
+      }
+    }
+  }
+}
+
+function scrollToSection() {
+  const section1 = document.getElementById("title-posts-section");
+  section1.scrollIntoView();
 }
 
 function openPopup() {

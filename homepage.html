@@ -41,7 +41,9 @@
         <button class="textComponent__button">SAZNAJ VISE</button>
       </div>
     </div>
-    <h1 class="title-posts-section">Najnovije vijesti</h1>
+    <h1 class="title-posts-section" id="title-posts-section">
+      Najnovije vijesti
+    </h1>
     <div class="posts-section">
       <div class="tab-container">
         <img id="tab-images" src="materials/atletika.jpg" alt="" />
@@ -171,7 +173,6 @@
         </button>
       </form>
     </div>
-
     <footer>
       <div class="footer-section__textComponents">
         <div class="footer-section__firstRow">
@@ -224,9 +225,15 @@
       <span class="closePopup" id="closePopup">&times;</span>
       <h1>Izaberite post koji zelite urediti:</h1>
       <div class="edit-popup__posts">
-        <div class="edit-popup__first"><p>1</p></div>
-        <div class="edit-popup__second"><p>2</p></div>
-        <div class="edit-popup__third"><p>3</p></div>
+        <div id="edit-popup__first">
+          <p onclick="selectDiv('edit-popup__first', true)">1</p>
+        </div>
+        <div id="edit-popup__second">
+          <p onclick="selectDiv('edit-popup__second', true)">2</p>
+        </div>
+        <div id="edit-popup__third">
+          <p onclick="selectDiv('edit-popup__third', true)">3</p>
+        </div>
       </div>
       <a class="edit-popup__submit">ODABERI</a>
     </div>

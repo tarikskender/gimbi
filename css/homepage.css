@@ -35,10 +35,11 @@
   background-color: #000000;
   transition: all 0.2s;
   color: white;
+  border: 0;
 }
 
 .textComponent__button:hover {
-  box-shadow: 2px 5px #000000;
+  box-shadow: 2px 5px 10px #1d1d1d;
   transition: all 0.2s;
   cursor: pointer;
   font-size: 14px;

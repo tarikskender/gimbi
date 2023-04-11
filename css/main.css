@@ -21,7 +21,7 @@ body {
 .black_space-logo {
   height: 105px;
 }
-  
+
 .black_space-tekst {
   height: 105px;
 }
@@ -208,7 +208,7 @@ footer div a:hover {
   transform: translate(-50%, -50%);
   width: 450px;
   height: 250px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.944);
   box-shadow: 3px 5px 10px rgb(0, 0, 0);
   display: flex;
   padding: 60px;
@@ -233,7 +233,6 @@ footer div a:hover {
 }
 
 .edit-popup__posts div {
-  background-color: rgb(243, 243, 243);
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.39);
   font-size: 20px;
   display: flex;
@@ -244,6 +243,20 @@ footer div a:hover {
   height: 100px;
   user-select: none;
   transition: 0.2s;
+}
+
+.edit-popup__posts div p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.colorChange {
+  border: 2px solid blue;
+  background-color: #1d1d1d;
+  color: white;
 }
 
 .edit-popup__posts div:hover {
